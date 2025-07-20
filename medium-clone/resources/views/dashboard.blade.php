@@ -38,7 +38,7 @@
                 @endforeach
                 <!-- Pagination controls -->
                 <div class="mt-6">
-                    {{ $posts->links() }}
+                    {{ $posts->onEachSide(1)->links() }}
                 </div>
             <!-- </ul> -->
         </div>

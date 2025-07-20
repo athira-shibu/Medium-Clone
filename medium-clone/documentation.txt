@@ -17,3 +17,4 @@ composer require doctrine/dbal:^3.4 compatible for laravel 10
 - no front end frameworks - blade
 - flowbite for tailwind components 
 - pagination
+$ php artisan vendor:pubish --tag=laravel-pagination
