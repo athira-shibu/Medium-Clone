@@ -10,3 +10,6 @@ Models:
     - published_at [nullable]
     - user_id - foreign
     - category_id - foreign
+
+- Factories & Seeders
+composer require doctrine/dbal:^3.4 compatible for laravel 10
