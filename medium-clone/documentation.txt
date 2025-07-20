@@ -6,7 +6,7 @@ Models:
     - title
     - slug [unique]
     - content
-    - images [nullable]
+    - image [nullable]
     - published_at [nullable]
     - user_id - foreign
     - category_id - foreign
