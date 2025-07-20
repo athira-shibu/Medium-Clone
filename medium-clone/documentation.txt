@@ -16,3 +16,4 @@ composer require doctrine/dbal:^3.4 compatible for laravel 10
 - used tailwind css for styling
 - no front end frameworks - blade
 - flowbite for tailwind components 
+- pagination

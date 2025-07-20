@@ -36,6 +36,10 @@
                         </a>
                     </div>
                 @endforeach
+                <!-- Pagination controls -->
+                <div class="mt-6">
+                    {{ $posts->links() }}
+                </div>
             <!-- </ul> -->
         </div>
     </div>
