@@ -16,7 +16,7 @@
         </div>
         <div class="py-6 px-6 bg-green-100 mt-12 max-w-3xl mx-auto rounded-lg">
             <!-- <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 justify-center"> -->
-                @foreach ($posts as $post)
+                @forelse ($posts as $post)
                     <div class="bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex mb-8">
                         
                         <div class="p-5 flex-1">
@@ -35,7 +35,9 @@
                             <img class="h-full w-36 rounded-r-lg object-cover" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" />
                         </a>
                     </div>
-                @endforeach
+                @empty
+                    <div class="text-center text-gray-400 py-16">No posts found</div>
+                @endforelse
                 <!-- Pagination controls -->
                 <div class="mt-6">
                     {{ $posts->onEachSide(1)->links() }}
