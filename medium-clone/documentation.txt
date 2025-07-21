@@ -24,5 +24,5 @@ breeze for auth
 to create a component php artisan make:component component name
 there are 3 type of components.
 1. class based components [php class associated to a blade file]
-2. view only component
+2. view only component php artisan make:component --view
 inline components
