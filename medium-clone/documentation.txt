@@ -18,3 +18,4 @@ composer require doctrine/dbal:^3.4 compatible for laravel 10
 - flowbite for tailwind components 
 - pagination
 $ php artisan vendor:pubish --tag=laravel-pagination
+breeze for auth
