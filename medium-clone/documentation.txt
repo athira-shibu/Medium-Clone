@@ -20,3 +20,9 @@ composer require doctrine/dbal:^3.4 compatible for laravel 10
 $ php artisan vendor:pubish --tag=laravel-pagination
 breeze for auth
 - blade directives
+- components
+to create a component php artisan make:component component name
+there are 3 type of components.
+1. class based components [php class associated to a blade file]
+2. view only component
+inline components
