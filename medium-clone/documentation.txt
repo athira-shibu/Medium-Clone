@@ -26,3 +26,4 @@ there are 3 type of components.
 1. class based components [php class associated to a blade file]
 2. view only component php artisan make:component --view
 inline components
+01:42/07:02
